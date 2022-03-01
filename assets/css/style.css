@@ -1,0 +1,90 @@
+.btn_gray{
+    color: #fff;
+    background-color: #363636;
+    border-color: #363636;
+}
+
+.btn_lightgray{
+    color: #0f7ad1;
+    background-color: #d9dadc;
+    border-color: #d9dadc;
+}
+
+.btn_red{
+    color: #fff;
+    background-color: #cd3d0f;
+    border-color: #cd3d0f;
+}
+
+.bg_gray{background-color: #1f1f1f;}
+
+.bg_lightgray{background-color: #bebcbb;}
+
+.bg_blue{background-color: #161c3b;}
+
+.bg_lightblue{background-color: #00439c;}
+
+._hero{
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+}
+
+.fs_7{font-size: 0.9rem;}
+
+.fs_8{font-size: 0.8rem;}
+
+.fs_9{font-size: 0.7rem;}
+
+.rounded_4{border-radius: 1rem;}
+
+.w_3{
+    width: 3%;
+}
+
+._img-overlay{
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+._ps-img > div:hover .overlay{
+    display: none;
+}
+
+._ps-img > div:hover{
+    border-bottom: 2px solid #0f7ad1;
+}
+
+._showcase > div img:hover,
+.new_releases > div img:hover{
+    border: 2px solid #0f7ad1;
+    padding: 2px;
+}
+
+._hero-2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 55vh;
+}
+
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+._copyright a{
+    color: #fff;
+    text-decoration: underline;
+}
