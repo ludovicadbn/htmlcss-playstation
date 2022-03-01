@@ -24,6 +24,15 @@
 
 .bg_lightblue{background-color: #00439c;}
 
+.logo_sony{
+    min-height: 2vh;
+    background-color: #000;
+}
+
+.logo_sony img{
+    vertical-align: unset;
+}
+
 ._hero{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
