@@ -97,3 +97,34 @@ li, a{
     color: #fff;
     text-decoration: underline;
 }
+
+._img-overlay span,
+._ps-now,
+._ps-plus{
+    display: none;
+}
+
+
+
+/* md */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    ._ps-img > div:last-of-type{
+        display: none;
+    }
+    
+    ._img-overlay span{
+        display: unset;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    ._ps-img > div:last-of-type{
+        display: none;
+    }
+    
+    ._img-overlay span,
+    ._ps-now,
+    ._ps-plus{
+        display: unset;
+    }
+}
