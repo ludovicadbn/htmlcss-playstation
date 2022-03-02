@@ -24,8 +24,13 @@
 
 .bg_lightblue{background-color: #00439c;}
 
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
 .logo_sony{
-    min-height: 2vh;
+    min-height: 1vh;
     background-color: #000;
 }
 
@@ -88,9 +93,14 @@
     min-height: 55vh;
 }
 
-li, a{
-    list-style-type: none;
-    text-decoration: none;
+._ps-plus,
+._ps-plus-img{
+    height: 32vh;
+}
+
+._ps-now,
+._ps-now-img{
+    height: 37vh;
 }
 
 ._copyright a{
@@ -99,32 +109,157 @@ li, a{
 }
 
 ._img-overlay span,
-._ps-now,
-._ps-plus{
+._ps-now-img,
+._ps-plus-img{
     display: none;
 }
 
-
-
 /* md */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    ._ps-img > div:last-of-type{
-        display: none;
-    }
-    
-    ._img-overlay span{
-        display: unset;
-    }
-}
-
-@media screen and (min-width: 1400px) {
-    ._ps-img > div:last-of-type{
-        display: none;
-    }
+    ._ps-img > div:last-of-type{display: none;}
     
     ._img-overlay span,
-    ._ps-now,
-    ._ps-plus{
+    ._ps-now-img,
+    ._ps-plus-img{
         display: unset;
     }
+    
+    ._hero{min-height: 55vh;}
+
+    .fs_9{font-size: 0.8rem;}
+
+    .fs_8{font-size: 0.9rem;}
+
+    ._ps4 > div span{
+        display: inline-block;
+        height: 10vh;
+    }
+
+    ._ps4 .my-5{margin-top: unset !important;}
+
+    .w_3{width: 2%;}
+
+}
+
+/* lg */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    ._ps-img > div:last-of-type{display: none;}
+    
+    ._img-overlay span,
+    ._ps-now-img,
+    ._ps-plus-img{
+        display: unset;
+    }
+    
+    ._hero{min-height: 55vh;}
+
+    ._hero > div span{font-size: 1rem;}
+
+    .fs_9{font-size: 0.9rem;}
+
+    .fs_8{font-size: 0.9rem;}
+
+    ._ps4 > div span{
+        display: inline-block;
+        height: 7vh;
+    }
+
+    ._ps4 .my-5{margin-top: unset !important;}
+
+    ._ps-plus,
+    ._ps-plus-img{
+        height: 40vh;
+    }
+
+    ._ps-now,
+    ._ps-now-img{
+        height: 42vh;
+    }
+
+    .w_3{width: 2%;}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+    ._ps-img > div:last-of-type{display: none;}
+    
+    ._img-overlay span,
+    ._ps-now-img,
+    ._ps-plus-img{
+        display: unset;
+    }
+    
+    ._hero{min-height: 60vh;}
+
+    ._hero > div span{font-size: 1rem;}
+
+    .fs_9{font-size: 1rem;}
+
+    .fs_8{font-size: 0.9rem;}
+    
+    ._ps4 > div span{
+        display: inline-block;
+        height: 6vh;
+    }
+
+    ._ps4 .my-5{margin-top: unset !important;}
+
+    ._ps-plus,
+    ._ps-plus-img{
+        height: 40vh;
+    }
+
+    ._ps-now,
+    ._ps-now-img{
+        height: 42vh;
+    }
+
+    footer div.mt-5 span{
+        font-size: 0.7rem;
+    }
+
+    .w_3{width: 1.5%;}
+}
+
+/* xxl */
+@media screen and (min-width: 1400px) {
+    ._ps-img > div:last-of-type{display: none;}
+    
+    ._img-overlay span,
+    ._ps-now-img,
+    ._ps-plus-img{
+        display: unset;
+    }
+    
+    ._hero{min-height: 70vh;}
+
+    ._hero > div span{font-size: 1rem;}
+
+    .fs_9{font-size: 1rem;}
+
+    .fs_8{font-size: 0.9rem;}
+    
+    ._ps4 > div span{
+        display: inline-block;
+        height: 5vh;
+    }
+
+    ._ps4 .my-5{margin-top: unset !important;}
+
+    ._hero-2 > div span{font-size: 1rem;}
+
+    ._ps-plus,
+    ._ps-plus-img{
+        height: 45vh;
+    }
+
+    ._ps-now,
+    ._ps-now-img{
+        height: 47vh;
+    }
+
+    footer div.mt-5 span{
+        font-size: 0.7rem;
+    }
+
+    .w_3{width: 1%;}
 }
